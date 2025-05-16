@@ -135,4 +135,4 @@ STORAGES = {
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CSRF_TRUSTED_ORIGINS = ["https://*.pythonanywhere.com"]
+CSRF_TRUSTED_ORIGINS = ["https://*.fly.io"]
