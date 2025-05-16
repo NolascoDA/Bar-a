@@ -31,7 +31,7 @@ SECRET_KEY = "django-insecure-#j_fz@j8jiy8+ymey3kdhlvl%6(%s9!y%#59#dmd2l1erww05t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bar-a.fly.dev', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -135,4 +135,4 @@ STORAGES = {
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CSRF_TRUSTED_ORIGINS = ["https://*.fly.io"]
+CSRF_TRUSTED_ORIGINS = ["https://*.fly.dev"]
